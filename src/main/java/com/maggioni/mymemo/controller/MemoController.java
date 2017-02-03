@@ -39,6 +39,7 @@ public class MemoController {
     }
 
     public List<Memo> getMemos() {
+       
         return memoService.getAllMemos();
     }
 }
